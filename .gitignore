@@ -1,6 +1,7 @@
 # Ignore audio data files
-data/audio/
-
+MU-LLaMA/data/audio/
+# Ignore checkpoints
+Mu-LLaMA/ckpts/
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
