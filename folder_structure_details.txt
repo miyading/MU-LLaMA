@@ -1,0 +1,66 @@
+.
+├── LICENSE
+├── MU-LLaMA
+│   ├── batch_inference.py
+│   ├── configs
+│   │   ├── finetune.yaml
+│   │   └── pretrain.yaml
+│   ├── data
+│   │   ├── bpe
+│   │   ├── dataset.py
+│   │   ├── models
+│   │   └── utils.py
+│   ├── demo.py
+│   ├── engine_finetune.py
+│   ├── engine_pretrain.py
+│   ├── finetune.sh
+│   ├── gradio_app.py
+│   ├── image_generate.py
+│   ├── inference.py
+│   ├── llama
+│   │   ├── __init__.py
+│   │   ├── llama.py
+│   │   ├── llama_adapter.py
+│   │   ├── tokenizer.py
+│   │   └── utils.py
+│   ├── main_finetune.py
+│   ├── main_pretrain.py
+│   ├── pretrain.sh
+│   └── util
+│       ├── lr_sched.py
+│       └── misc.py
+├── ModelEvaluations
+│   ├── evaluate.py
+│   ├── generate_llama-adapter.py
+│   ├── generate_ltu.py
+│   ├── generate_mullama.py
+│   └── imagebind_LLM
+│       ├── ImageBind
+│       ├── llama
+│       └── util
+├── MusicQA
+│   ├── Alpaca
+│   │   └── alpaca_dataset.json
+│   ├── MTG
+│   │   └── raw_30s_cleantags_50artists.tsv
+│   ├── MTG_process.py
+│   ├── MTT
+│   │   └── annotations_final.csv
+│   ├── MTT_process.py
+│   ├── MusicCaps
+│   │   └── musiccaps-public.csv
+│   ├── MusicQA
+│   │   ├── EvalMusicQA.json
+│   │   ├── FinetuneMusicQA.json
+│   │   └── PretrainMusicQA.json
+│   ├── generate_dataset.py
+│   ├── musiccaps_process.py
+│   └── utils.py
+├── README.md
+├── assets
+│   ├── MU-LLaMA.png
+│   └── logo.png
+├── folder_structure_details.txt
+└── requirements.txt
+
+20 directories, 44 files
