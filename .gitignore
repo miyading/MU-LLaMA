@@ -1,0 +1,11 @@
+# Ignore virtual environment directory
+mullama_env/
+# Ignore audio data files
+data/audio/
+# Other ignored files
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+dist/
+build/
