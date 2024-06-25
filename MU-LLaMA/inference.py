@@ -15,7 +15,8 @@ parser.add_argument(
     help="Type of llama original weight",
 )
 parser.add_argument(
-    "--llama_dir", default="/path/to/llama", type=str,
+    # change default from /path/to/llama to 
+    "--llama_dir", default="./ckpts/LLaMA", type=str,
     help="Path to LLaMA pretrained checkpoint",
 )
 parser.add_argument(

@@ -13,3 +13,9 @@ https://github.com/unlimblue/KNN_CUDA/releases/download/0.2/KNN_CUDA-0.2-py3-non
 huggingface_hub==0.15.1
 transformers==4.30.2
 torchaudio==2.0.2
+torch==2.0.1
+torchvision==0.15.2
+pytorchvideo==0.1.5
+einops
+timm
+ftfy
